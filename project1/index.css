@@ -1,0 +1,38 @@
+body{
+    background-image: url("sound/mhadev.jpg");
+    text-align: center;
+    position:relative;
+    top:200px;
+    background-size: cover;
+}
+.key{
+    height: 55px;
+    width: 55px;
+    border: 2px solid yellow;
+    text-align: center;
+    display: inline-block;
+    margin: 3px;
+    transition: all .07s;
+
+}
+kbd{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top:5px;
+    left: 5px;
+}
+.sound{
+    color: white;
+    font-size: 10px;
+    position: relative;
+    top:20px;
+    right: 5px;
+}
+.playing{
+    
+    transform: scale(1 1);
+    border-color: brown;
+    box-shadow: 0 0 5px brown;
+
+}
